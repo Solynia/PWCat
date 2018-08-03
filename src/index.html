@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>PWCat</title>
@@ -7,8 +8,63 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    .loading {
+      height: 30px;
+      width: 30px;
+      border-radius: 100%;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background-color: transparent;
+      border: 5px solid transparent;
+      border-color: #eee #eee #444 #444;
+      -webkit-animation: rotateLoading 1s linear 0s infinite normal;
+      -webkit-transform-origin: 50% 50%;
+      -moz-animation: rotateLoading 1.5s linear 0s infinite normal;
+      -moz-transform-origin: 50% 50%;
+      animation: rotateLoading 1.5s linear 0s infinite normal;
+      transform-origin: 50% 50%;
+      transition: all .1s ease-in
+    }
+
+    @keyframes rotateLoading {
+      0% {
+        transform: rotate(0);
+        -webkit-transform: rotate(0)
+      }
+      100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg)
+      }
+    }
+
+    @-webkit-keyframes rotateLoading {
+      0% {
+        -webkit-transform: rotate(0)
+      }
+      100% {
+        -webkit-transform: rotate(360deg)
+      }
+    }
+
+    @-moz-keyframes rotateLoading {
+      0% {
+        -moz-transform: rotate(0)
+      }
+      100% {
+        -moz-transform: rotate(360deg)
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <app-root></app-root>
+  <app-root>
+    <!-- based on https://codepen.io/siiron/pen/rcCLl -->
+    <div id="loading"></div>
+  </app-root>
 </body>
+
 </html>

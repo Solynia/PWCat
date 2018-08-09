@@ -1,7 +1,7 @@
 <mat-card>
   <mat-card-actions>
-    <button mat-raised-button color="primary" (click)="generateSrc()">
-      Give me another cat
+    <button mat-raised-button [color]="btn.color" [disabled]="btn.disabled" (click)="generateSrc()">
+      {{btn.text}}
     </button>
   </mat-card-actions>
   <img [src]="src" alt="Cute cat" mat-card-image>

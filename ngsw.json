@@ -23,7 +23,9 @@
         "/PWCat/assets/icon-256x256.png",
         "/PWCat/assets/icon-512x512.png"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/cataas\\.com\\/.*"
+      ]
     }
   ],
   "dataGroups": [],
@@ -34,7 +36,7 @@
     "/PWCat/assets/icon-256x256.png": "aa794bf00591bd06c9fee00126b321baa155ee8d",
     "/PWCat/assets/icon-512x512.png": "ad9b5746e8a586f161f92b21f97c4cd81b157965",
     "/PWCat/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/PWCat/index.html": "17826a1794e866ed146609efb3907a1af35eb1a7"
+    "/PWCat/index.html": "23d87235a7135a9ba0186459b7fce1052dd6f0d6"
   },
   "navigationUrls": [
     {

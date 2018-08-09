@@ -19,6 +19,7 @@
       "urls": [
         "/PWCat/assets/icon-128x128.png",
         "/PWCat/assets/icon-152x152.png",
+        "/PWCat/assets/icon-192x192.png",
         "/PWCat/assets/icon-256x256.png",
         "/PWCat/assets/icon-512x512.png"
       ],
@@ -29,6 +30,7 @@
   "hashTable": {
     "/PWCat/assets/icon-128x128.png": "f444fd3ae0dbc3be5741ef77cf9d0aa21bcdd9d5",
     "/PWCat/assets/icon-152x152.png": "c439eef9906d5a1758700fbbc8ea38d7295eb1bb",
+    "/PWCat/assets/icon-192x192.png": "f9f9b0458394f41ae09f8f21403be2cafab6ffeb",
     "/PWCat/assets/icon-256x256.png": "aa794bf00591bd06c9fee00126b321baa155ee8d",
     "/PWCat/assets/icon-512x512.png": "ad9b5746e8a586f161f92b21f97c4cd81b157965",
     "/PWCat/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
